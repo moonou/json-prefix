@@ -4,7 +4,7 @@ function addPrestr (data, prestr) {
   for (let key in data) {
     if (typeof data[key] === 'object') {
       addPrestr(data[key], prestr)
-    } else if (typeof data[key] === String) {
+    } else if (typeof data[key] === 'string') {
       data[key] = prestr + data[key]
     }
   }

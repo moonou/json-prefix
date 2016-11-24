@@ -1,5 +1,7 @@
 # json-prefix
 
+![travis](https://travis-ci.org/moonou/json-prefix.svg?branch=master)
+
 traverse json tree add prefix to string
 ``` javascript
 var prefix = require('json-prefix')
