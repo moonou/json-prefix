@@ -1,21 +1,21 @@
 {
-  "name": "json-prefix",
-  "version": "0.0.1",
-  "description": "add a prefix for string in json",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "prefix"
-  ],
-  "author": "moonou",
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "^3.1.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/moonou/json-prefix"
-  }
+    "name": "json-prefix",
+    "version": "0.0.2",
+    "description": "add a prefix for string in json",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "prefix"
+    ],
+    "author": "moonou",
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "^3.1.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/moonou/json-prefix"
+    }
 }
