@@ -1,7 +1,8 @@
 # json-prefix
 
 ![travis](https://travis-ci.org/moonou/json-prefix.svg?branch=master)
-
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 traverse json tree add prefix to string
 ``` javascript
 var prefix = require('json-prefix')
@@ -27,3 +28,6 @@ console.log(result)
 }
 */
 ```
+
+[npm-url]: https://www.npmjs.com/package/json-prefix
+[downloads-url]: https://www.npmjs.com/package/json-prefix
