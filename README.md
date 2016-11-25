@@ -14,15 +14,15 @@ var json = {
   number: 7
 }
 
-var result = prefix(json)
+var result = prefix(json, 'prefixstr')
 
 console.log(result)
 /**
 {
   foo: {
-    bar: 'stringafoo/bar'
+    bar: 'prefixstrfoo/bar'
   },
-  stringa: 'stringastringa',
+  stringa: 'prefixstrstringa',
   number: 7  
 }
 */
